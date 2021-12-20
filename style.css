@@ -1,0 +1,44 @@
+* {
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header {
+	display: block;
+	text-align: center;
+	justify-content: center;
+	color: rgb(255, 136, 0);
+}
+
+.blog {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.item {
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(124, 122, 122);
+	font-size: large;
+	padding: 2px;
+	width: 16%;
+	margin: 5px;
+}
+
+.item_main-temp {
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(255, 136, 0);
+}
+
+.item_dt-txt {
+	color:rgb(124, 122, 122);
+}
+
+.item_wind-deg {
+	display: inline-block;
+}
